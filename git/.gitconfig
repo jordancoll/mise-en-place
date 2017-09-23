@@ -1,0 +1,18 @@
+[user]
+	name = Jordan Coll
+	email = jordancoll@users.noreply.github.com
+[core]
+	autocrlf = false
+	whitespace = cr-at-eol
+	excludesfile = ~/.gitignore
+[alias]
+	co = checkout
+	st = status --untracked-files=no
+	br = branch -vv
+	l = log --decorate
+	smu = submodule update 
+	ff = merge --ff-only
+[push]
+	default = simple
+[help]
+	autocorrect = 30
